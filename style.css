@@ -40,7 +40,7 @@ hr {
 }
 
 .bloco-1{
-    background-color: lightblue;
+    background-color: lightyellow;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -50,7 +50,7 @@ hr {
 }
 
 .bloco-2{
-    background-color: lightpink;
+    background-color: lightgrey;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -60,7 +60,7 @@ hr {
 }
 
 .bloco-3{
-    background-color: red;
+    background-color: yellow;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -70,7 +70,7 @@ hr {
 }
 
 .bloco-1-sem-altura{
-    background-color: lightblue;
+    background-color: lightgreen;
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -79,7 +79,7 @@ hr {
 }
 
 .bloco-2-sem-altura{
-    background-color: lightpink;
+    background-color: rgb(251, 255, 182);
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -88,7 +88,7 @@ hr {
 }
 
 .bloco-3-sem-altura{
-    background-color: red;
+    background-color: yellow;
     width: 150px;
     text-align: center;
     font-size: 40px;
@@ -97,7 +97,7 @@ hr {
 }
 
 .bloco-1-fontes-diferentes{
-    background-color: lightblue;
+    background-color: lightyellow;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -107,7 +107,7 @@ hr {
 }
 
 .bloco-2-fontes-diferentes{
-    background-color: lightpink;
+    background-color: lightgray;
     height: 150px;
     width: 150px;
     text-align: center;
@@ -348,3 +348,71 @@ background-color: antiquewhite;
 padding: 16px;
 height: 500px;
 }
+
+
+.container-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 16px;
+    height: 500px;
+    }
+
+    
+    .container-align-content-flex-end{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: flex-end; /*muda aqui */
+        /* indiferente */
+        background-color: antiquewhite;
+        padding: 16px;
+        height: 500px;
+        }
+
+        .container-align-content-space-between{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            align-content: space-between; /*muda aqui */
+            /* indiferente */
+            background-color: antiquewhite;
+            padding: 16px;
+            height: 500px;
+            }
+
+            .container-align-content-space-around{ 
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                align-content: space-around; /*muda aqui */
+                /* indiferente */
+                background-color: antiquewhite;
+                padding: 16px;
+                height: 500px;
+                }
+
+                .container-align-content-space-evenly{ 
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    align-content: space-evenly; /*muda aqui */
+                    /* indiferente */
+                    background-color: antiquewhite;
+                    padding: 16px;
+                    height: 500px;
+                    }
+        
