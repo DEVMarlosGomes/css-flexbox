@@ -4,15 +4,27 @@
     font-size: 3em;
     font-weight: 900;
     font-family:Arial, Helvetica, sans-serif;
-    color: darkblue;
+    color: rgb(0, 0, 0);
     margin: 10px;
 }
+
+.container-align-content-flex-center{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-center; /*muda aqui */
+    /* indiferente */
+    background-color: antiquewhite;
+    padding: 160px;
+    height: 5000px;
+    }
 
 .nome-da-propriedade {
     font-size: 2em;
     font-weight: 500px;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: rgb(192, 140, 0);
     padding: 20px;
 }
 
@@ -21,7 +33,7 @@
     font-size: 2em;
     font-weight: 500px;
     font-family: Arial, Helvetica, sans-serif;
-    color: green;
+    color: rgb(154, 0, 0);
     padding: 20px;
 }
 
